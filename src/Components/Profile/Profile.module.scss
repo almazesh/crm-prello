@@ -1,0 +1,26 @@
+.profile{
+    position: relative;
+    img{
+        width: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+        height: 40px;
+        margin-top: 5px;
+        position: relative;
+        cursor: pointer;
+        border:2px solid blue;
+        transition: 0.4s;
+        &:hover{
+            transform: rotate(80deg);
+        }
+        
+    }
+
+    .icon{
+        font-size: 40px;
+        margin-top: 5px;
+        color: white;
+        cursor: pointer;
+        
+    }
+}

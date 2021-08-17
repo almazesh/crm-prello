@@ -1,0 +1,44 @@
+.modalTask{
+    width: 300px;
+    height: 57px;
+    background:rgb(22, 24, 173);
+    color: white;
+    position: absolute;
+    top: 15%;
+    box-shadow:  0 0 5px blue;
+    left: 35%;
+    border-radius: 6px;
+    z-index: 2;
+    display: none;
+    text-align: center;
+    &.active{
+        display: block;
+    }
+    .addInput{
+        position: relative;
+        input{
+            padding: 10px 5px;
+            width: 90%;
+            margin-top: 10px;
+            outline: 0;
+            border-radius: 6px;
+            border:0;
+        }
+        .iconMD{
+            position: absolute;
+            right: 3%;
+            top: 10px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            padding: 8.5px 8px;
+            font-size: 18px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    
+    
+    
+}
+

@@ -1,0 +1,11 @@
+.acc h2{
+    color: blue;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.acc h2 .user{
+    padding-right: 5px;
+    font-size: 25px;
+    transform: translateY(5px);
+}

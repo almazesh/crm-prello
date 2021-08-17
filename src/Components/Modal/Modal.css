@@ -1,0 +1,61 @@
+.modal{
+    width: 300px;
+    height: 150px;
+    background: rgb(41, 41, 182);
+    color: white;
+    box-shadow: 0  0 5px blue;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+}
+
+
+.modal.active{
+    display: block;
+}
+
+.modal input{
+    background: rgba(255,255,255,0.8);
+    border-radius: 6px;
+    border:0;
+    margin: 5px 0;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    width: 75%;
+    padding: 10px 5px;
+    
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+.modal button{
+    padding: 10px 10px;
+    border:0;
+    border-radius: 6px;
+    color: silver;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.modal button:hover{
+    background: white;
+}
+
+
+.dFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dFlex span{
+    cursor: pointer;
+    font-size: 30px;
+}
